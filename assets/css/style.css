@@ -18,6 +18,17 @@ h1, h2 {
   text-align: center;
 }
 
+iframe {
+  display: block;
+  margin: 0 auto;
+  width: 1280px;
+  height: 720px;
+}
+
+p {
+  color: #FFFFFF;
+}
+
 /***************************Navbar code***************************************/
 .navBar { margin: 0;
          padding: 0;
