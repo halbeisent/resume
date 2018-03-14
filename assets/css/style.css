@@ -30,30 +30,13 @@ p {
 }
 
 /***************************Navbar code***************************************/
-.navBar { margin: 0;
-         padding: 0;
-      list-style: none;
-         display: table;            /* SETS LAYOUT */
-    table-layout: fixed;            /* SETS ALL CELLS TO EQUAL WIDTH */
-           width: 100%;             /* TABS FILL CELLS VERTICALLY 100% */
+nav {
+  background-color: #db4b08 !important;
 }
 
-.navItem { display: table-cell; }   /* TABS FILL CELLS HORIZONTALLY 100% */
-.navLink { display: block; }        /* SETS CLICK AREA TO ENTIRE BTN */
-
-.primary-nav { text-align: center; overflow: hidden; }
-
-.primary-nav a { padding: 1.5em;
-              background: #db4b08;
-                   color: #CFE9E3;
-             font-weight: 400;
-         text-decoration: none;
-          text-transform: uppercase;
-              transition: all 0.4s linear;
+.navtextstyle {
+  color: white !important;
 }
-
-.primary-nav a:hover { background: #f7cebb; color: #17355A; font-weight: 700; }
-
 /*****************************Test********************************************
 section { background: #ded9d6;
                color: #3c8179;
