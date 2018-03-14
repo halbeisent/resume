@@ -1,8 +1,13 @@
 /***************************General Style*************************************/
+@import url("https://fonts.googleapis.com/css?family=Boogaloo");
+
+* {
+  font-family: 'Boogaloo', cursive;
+}
+
 html, body {
   margin: 0;
   padding: 0;
-  font-family: Helvetica, sans-serif;
 }
 
 body {
@@ -31,11 +36,11 @@ p {
 
 /***************************Navbar code***************************************/
 nav {
-  background-color: #db4b08 !important;
+  background-color: #FF6016 !important;
 }
 
 .navtextstyle {
-  color: white !important;
+  color: white;
 }
 /*****************************Test********************************************
 section { background: #ded9d6;
@@ -173,23 +178,23 @@ p::first-letter { font-size: 1.8rem; font-weight: 500; margin-top: 10px; }
             }
 
 .timeline-badge.primary {
-    background-color: #db4b08 !important;
+    background-color: #FF6016 !important;
 }
 
 .timeline-badge.success {
-    background-color: #db4b08 !important;
+    background-color: #FF6016 !important;
 }
 
 .timeline-badge.warning {
-    background-color: #db4b08 !important;
+    background-color: #FF6016 !important;
 }
 
 .timeline-badge.danger {
-    background-color: #db4b08 !important;
+    background-color: #FF6016 !important;
 }
 
 .timeline-badge.info {
-    background-color: #db4b08 !important;
+    background-color: #FF6016 !important;
 }
 
 .timeline-title {
